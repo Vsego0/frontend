@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+}
+
+.p3{
+    background-color: rgb(66,108,180);
+}
+
+.p4{   
+    background-color: rgb(252,197,14);
+}
+
+.p5{
+    background-color: rgb(238,31,47);
+}
+
+.leftImage{
+    text-align: left; 
+    float: left; 
+    margin-right: 20px;
+}
+
+.rightImage{
+    text-align: right; 
+    float: right; 
+    margin-left: 20px
+}
+
+.headerImage{
+    text-align: center;
+}
+
+.characterList{
+    text-align: center;
+}
+
+.characterList ul{
+    display: inline-block;
+}
+
+.characterList li{
+    text-align: left;
+}
