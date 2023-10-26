@@ -30,14 +30,23 @@ h1{
     text-align: center;
 }
 
-.characterList{
+.characterTable{
+    margin: auto;
+    margin-top: 40px;
+}
+
+.characterTable td{
     text-align: center;
 }
 
-.characterList ul{
-    display: inline-block;
+.openings{
+    margin-top: 50px;
+    margin: auto;
+    text-align: center;
 }
 
-.characterList li{
-    text-align: left;
+.openings p{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: x-large;
 }
