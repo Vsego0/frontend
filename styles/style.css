@@ -31,6 +31,7 @@ h1{
 }
 
 .characterTable{
+    border-color: rgb(0, 0, 0);
     margin: auto;
     margin-top: 40px;
 }
