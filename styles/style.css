@@ -73,3 +73,26 @@ h1{
     text-align: center;
     width: 450px;
 }
+
+.anchors{
+    margin: auto;
+    border-spacing: 30px;
+}
+
+.anchors th{
+    text-align: center;
+}
+
+.anchors td{
+    text-align: center;
+}
+
+.page :link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.page :visited{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}

@@ -8,24 +8,60 @@
     <link rel="stylesheet" href="styles/style.css" />
 </head>
 
-<body>
+<body class="page">
 
-    <h1><img src="images/personaHeading.png"></h1>
+    <header>
+    
+        <h1><img src="images/personaHeading.png"></h1>
+
+        <h3>
+            <table class="anchors">
+                <tr>
+                   <th><a href="#p3">Persona 3</a></th>
+                   <th><a href="#p4">Persona 4</a></th>
+                   <th><a href="#p5">Persona 5</a></th>
+                </tr>
+                <tr>
+                    <td><a href="#p3info">Описание</a></td>
+                    <td><a href="#p4info"> Описание</a></td>
+                    <td><a href="#p5info">Описание</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#p3characters">Персонажи</a></td>
+                    <td><a href="#p4characters">Персонажи</a></td>
+                    <td><a href="#p5characters">Персонажи</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#p3openings">Опенинги</a></td>
+                    <td><a href="#p4openings">Опенинги</a></td>
+                    <td><a href="#p5openings">Опенинги</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#p3screenshots">Скриншоты</a></td>
+                    <td><a href="#p4screenshots">Скриншоты</a></td>
+                    <td><a href="#p5screenshots">Скриншоты</a></td>
+                </tr>
+                </table>
+        </h3>
+
+    </header>
 
     <hr>
 
-    <div class="p3">
+    <div class="p3" id="p3">
 
-        <p class="headerImage"><img src="images/p3Logo.png" width="200px"></p>
+        <p class="headerImage"><img src="images/p3Logo.png" width="200px" title="Persona 3" alt="Persona 3"></p>
         
-        <div class="leftImage"><img src="images/mitsuru.png" width="150px"></div>
+        <div class="leftImage"><img src="images/mitsuru.png" width="150px" title="Митсуро Кириджо" alt="Митсуро Кириджо"></div>
 
-        <div class="rightImage"><img src="images/aigis.png" width="150px"></div>
+        <div class="rightImage"><img src="images/aigis.png" width="150px" title="Аигис" alt="Аигис"></div>
 
-        <p><b>Shin Megami Tensei: Persona 3</b> — ролевая игра, разработанная компанией Atlus, четвёртая в серии Shin Megami Tensei: Persona, входящей в более обширную серию игр — Megami Tensei.</p>
-        <p>В <i>Persona 3</i> главным героем является школьник, который присоединяется к <i>S.E.E.S. (Specialized Extracurricular Execution Squad, специализированное факультативное исполнительное отделение)</i>, группе учеников, исследующих <i>«тёмный час»</i>, скрытое время, наступающее ровно в полночь между одним днём и следующим за ним. Во время тёмного часа игрок посещает <i>Тартар</i>, огромную башню, населённую <i>«тенями»</i>, созданиями, питающимися разумом людей. Чтобы противостоять теням, каждый член S.E.E.S. может призывать <i>Персону</i>, воплощение своего внутреннего «я». Одной из самых запоминающихся особенностей игры является метод, которым члены S.E.E.S. высвобождают своих Персон: они стреляют себе в голову похожим на обычный пистолет <i>«Вызывателем» (Evoker)</i>. В дополнение к обычным для ролевых игр элементам <i>Persona 3</i> содержит в себе ещё и элементы игр-симуляторов, так как главный герой развивается день за днём на протяжении всего учебного года, заводя друзей и развивая взаимоотношения с ними, что усиливает его Персон в сражениях.</p>
+        <div id="p3info">
+            <p><b>Shin Megami Tensei: Persona 3</b> — ролевая игра, разработанная компанией Atlus, четвёртая в серии Shin Megami Tensei: Persona, входящей в более обширную серию игр — Megami Tensei.</p>
+            <p>В <i>Persona 3</i> главным героем является школьник, который присоединяется к <i>S.E.E.S. (Specialized Extracurricular Execution Squad, специализированное факультативное исполнительное отделение)</i>, группе учеников, исследующих <i>«тёмный час»</i>, скрытое время, наступающее ровно в полночь между одним днём и следующим за ним. Во время тёмного часа игрок посещает <i>Тартар</i>, огромную башню, населённую <i>«тенями»</i>, созданиями, питающимися разумом людей. Чтобы противостоять теням, каждый член S.E.E.S. может призывать <i>Персону</i>, воплощение своего внутреннего «я». Одной из самых запоминающихся особенностей игры является метод, которым члены S.E.E.S. высвобождают своих Персон: они стреляют себе в голову похожим на обычный пистолет <i>«Вызывателем» (Evoker)</i>. В дополнение к обычным для ролевых игр элементам <i>Persona 3</i> содержит в себе ещё и элементы игр-симуляторов, так как главный герой развивается день за днём на протяжении всего учебного года, заводя друзей и развивая взаимоотношения с ними, что усиливает его Персон в сражениях.</p>
+        </div>
 
-        <table border="2px" class="characterTable">
+        <table border="2px" class="characterTable" id="p3characters">
             <tr>
                 <th></th>
                 <th>
@@ -37,7 +73,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/makotoYuki.bmp" width="40">
+                    <img src="images/makotoYuki.bmp" width="40" title="Макото Юки">
                 </td>
                 <td>
                     Макото Юки (игрок)
@@ -48,7 +84,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/mitsuruKirijo.bmp" width="40">
+                    <img src="images/mitsuruKirijo.bmp" width="40" title="Митсуро Кириджо">
                 </td>
                 <td>
                     Митсуро Кириджо
@@ -59,7 +95,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/junpei.bmp" width="40">
+                    <img src="images/junpei.bmp" width="40" title="Джунпей Иори">
                 </td>
                 <td>
                     Джунпей Иори
@@ -70,7 +106,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/yukari.bmp" width="40">
+                    <img src="images/yukari.bmp" width="40" title="Юкари Такеба">
                 </td>
                 <td>
                     Юкари Такеба
@@ -81,7 +117,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/akihiko.bmp" width="40">
+                    <img src="images/akihiko.bmp" width="40" title="Акихико Санада">
                 </td>
                 <td>
                     Акихико Санада
@@ -92,7 +128,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/ken.bmp" width="40">
+                    <img src="images/ken.bmp" width="40" title="Кен Амада">
                 </td>
                 <td>
                     Кен Амада
@@ -103,7 +139,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/shinjiro.bmp" width="40">
+                    <img src="images/shinjiro.bmp" width="40" title="Шинджиро Арагаки">
                 </td>
                 <td>
                     Шинджиро Арагаки
@@ -114,7 +150,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/fuuka.png" width="40">
+                    <img src="images/fuuka.png" width="40" title="Фуука Ямагиши">
                 </td>
                 <td>
                     Фуука Ямагиши
@@ -125,7 +161,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/aigispic.bmp" width="40">
+                    <img src="images/aigispic.bmp" width="40" title="Аигис">
                 </td>
                 <td>
                     Аигис
@@ -136,7 +172,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/koromaru.bmp" width="40">
+                    <img src="images/koromaru.bmp" width="40" title="Коромару">
                 </td>
                 <td>
                     Коромару
@@ -147,7 +183,7 @@
             </tr>
         </table>
 
-        <div class="openings">
+        <div class="openings" id="p3openings">
             <p><big>Опенинги</big></p>
 
             <p>Persona 3</p>
@@ -161,7 +197,7 @@
 
         </div>
 
-        <div class="screenshots">
+        <div class="screenshots" id="p3screenshots">
 
             <p style="font-size: x-large;"><big>Скриншоты</big></p>
             
@@ -169,15 +205,15 @@
 
                 <tr>
                     <td>
-                        <img src="images/p3screenshot1.jpg">
+                        <img src="images/p3screenshot1.jpg" title="Лестница на следующий уровень">
                     </td>
     
                     <td>
-                        <img src="images/p3screenshot2.jpg">
+                        <img src="images/p3screenshot2.jpg" title="Диалог с Аигис">
                     </td>
     
                     <td>
-                        <img src="images/p3screenshot3.jpg">
+                        <img src="images/p3screenshot3.jpg" title="Бой с тенью">
                     </td>
                 </tr>
     
@@ -201,19 +237,20 @@
 
     <hr>
 
-    <div class="p4">
+    <div class="p4" id="p4">
 
-        <p class="headerImage"><img src="images/p4Logo.png" width="200px"></p>
+        <p class="headerImage"><img src="images/p4Logo.png" width="200px" alt="Persona 4" title="Persona 4"></p>
 
-        <div class="leftImage"><img src="images/mari.png" width="250px"></div>
+        <div class="leftImage"><img src="images/mari.png" width="250px" alt="Мари" title="Мари"></div>
 
-        <div class="rightImage"><img src="images/naoto.png" width="250px"></div>
+        <div class="rightImage"><img src="images/naoto.png" width="250px" alt="Наото Широганэ" title="Наото Широганэ"></div>
 
-        <p><b>Persona 4</b> — ролевая игра, разработанная и изданная Atlus для Sony PlayStation 2, хронологически пятая в линейке Shin Megami Tensei: Persona.</p>
+        <div id="p4info">
+            <p><b>Persona 4</b> — ролевая игра, разработанная и изданная Atlus для Sony PlayStation 2, хронологически пятая в линейке Shin Megami Tensei: Persona.</p>
+            <p>Действие игры в отличие от предыдущей части серии происходит не в крупном городе, а в вымышленном сельском городке <i>Инаба</i>, но игровая механика в обеих играх во многом схожа. Главный герой — старшеклассник, на год переехавший из крупного города в сельскую местность. В ходе этого года он оказывается втянут в расследование убийств и получает способность вызывать <i>Персон</i>, особых магических сущностей, носящих имена древних богов, демонов или героев. </p>
+        </div>
 
-        <p>Действие игры в отличие от предыдущей части серии происходит не в крупном городе, а в вымышленном сельском городке <i>Инаба</i>, но игровая механика в обеих играх во многом схожа. Главный герой — старшеклассник, на год переехавший из крупного города в сельскую местность. В ходе этого года он оказывается втянут в расследование убийств и получает способность вызывать <i>Персон</i>, особых магических сущностей, носящих имена древних богов, демонов или героев. </p>
-    
-        <table border="2px" class="characterTable">
+        <table border="2px" class="characterTable" id="p4characters">
             <tr>
                 <th></th>
                 <th>
@@ -225,7 +262,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/yu.bmp" width="40">
+                    <img src="images/yu.bmp" width="40" title="Ю Наруками">
                 </td>
                 <td>
                     Ю Наруками (игрок)
@@ -236,7 +273,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/yosuke.bmp" width="40">
+                    <img src="images/yosuke.bmp" width="40" title="Йосуке Ханамура">
                 </td>
                 <td>
                     Йосуке Ханамура
@@ -247,7 +284,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/chie.bmp" width="40">
+                    <img src="images/chie.bmp" width="40" title="Чиэ Сатонака">
                 </td>
                 <td>
                     Чиэ Сатонака
@@ -258,7 +295,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/yukiko.bmp" width="40">
+                    <img src="images/yukiko.bmp" width="40" title="Юкико Амаги">
                 </td>
                 <td>
                     Юкико Амаги
@@ -269,10 +306,10 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/kanji.bmp" width="40">
+                    <img src="images/kanji.bmp" width="40" title="Канджи Тацуми">
                 </td>
                 <td>
-                    Каджи Тацуми
+                    Канджи Тацуми
                 </td>
                 <td>
                     Таки-Миказучи (Taki-Mikazuchi)
@@ -280,7 +317,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/rise.png" width="40">
+                    <img src="images/rise.png" width="40" title="Рисэ Куджикава">
                 </td>
                 <td>
                     Рисэ Куджикава
@@ -291,7 +328,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/naotoShirogane.bmp" width="40">
+                    <img src="images/naotoShirogane.bmp" width="40" title="Наото Широганэ">
                 </td>
                 <td>
                     Наото Широганэ
@@ -302,7 +339,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/teddie.bmp" width="40">
+                    <img src="images/teddie.bmp" width="40" title="Тэдди">
                 </td>
                 <td>
                     Тэдди
@@ -313,7 +350,7 @@
             </tr>
         </table>
 
-        <div class="openings">
+        <div class="openings" id="p4openings">
             <p><big>Опенинги</big></p>
 
             <p>Persona 4</p>
@@ -324,7 +361,7 @@
 
         </div>
 
-        <div class="screenshots">
+        <div class="screenshots" id="p4screenshots">
 
             <p style="font-size: x-large;"><big>Скриншоты</big></p>
             
@@ -332,15 +369,15 @@
 
                 <tr>
                     <td>
-                        <img src="images/p4screenshot2.jpg">
+                        <img src="images/p4screenshot2.jpg" title="Вход в ТВ-мир">
                     </td>
     
                     <td>
-                        <img src="images/p4screenshot3.webp">
+                        <img src="images/p4screenshot3.webp" title="Диалог с Чиэ">
                     </td>
     
                     <td>
-                        <img src="images/p4screenshot1.jpg">
+                        <img src="images/p4screenshot1.jpg" title="Бой с тенями">
                     </td>
                 </tr>
     
@@ -365,19 +402,20 @@
 
     <hr>
 
-    <div class="p5">
+    <div class="p5" id="p5">
 
-        <p class="headerImage"><img src="images/p5Logo.png" width="200px"></p>
+        <p class="headerImage"><img src="images/p5Logo.png" width="200px" alt="Persona 5" title="Persona 5"></p>
 
-        <div class="leftImage"><img src="images/futaba.png" width="250px"></div>
+        <div class="leftImage"><img src="images/futaba.png" width="250px" alt="Футаба Сакура" title="Футаба Сакура"></div>
 
-        <div class="rightImage"><img src="images/ryuji.png" width="250px"></div>
+        <div class="rightImage"><img src="images/ryuji.png" width="250px" alt="Рьюджи Сакамото" title="Рьюджи Сакамото"></div>
 
-        <p><b>Persona 5</b> — ролевая видеоигра, созданная студией P-Studio, входящей в состав японской компании Atlus. Хронологически шестая часть серии Shin Megami Tensei: Pesrona.</p>
+        <div id="p5info">
+            <p><b>Persona 5</b> — ролевая видеоигра, созданная студией P-Studio, входящей в состав японской компании Atlus. Хронологически шестая часть серии Shin Megami Tensei: Pesrona.</p>
+            <p>Действие игры разворачивается в той же вселенной, что и предыдущие выпуски сериала, но по сценарию с ними не связана. В отличие от предыдущих частей, где города были вымышлены, действие происходит в реальном городе Токио и немного на Гавайи. Главным героем, которым управляет игрок, является черноволосый молчаливый и безымянный подросток 16 лет, который носит кодовое имя <i>Джокер</i>. Он учится во втором классе старшей школы <i>Сюдзин</i>, переехал в Токио после того, как его отчислили из школы из-за ложного обвинения в нападении на конгрессмена. Днём главный герой посещает школу и ведёт обычную жизнь, но спокойствие нарушает случайное попадание в альтернативную реальность <i>Дворца</i> и появление кота Морганы, после чего герой вместе со своими друзьями образовывает группу так называемых <i>Призрачных Похитителей Сердец (Fanton Thieves of Hearts)</i> для исследования других <i>Дворцов</i> — мест, созданных силой эмоций человеческих сердец. Группа отправляется на похищение и искоренение злых помыслов и желаний людей из их душевного мира, которые рискуют обернуться опасностью для жителей реального мира. </p>
+        </div>
 
-        <p>Действие игры разворачивается в той же вселенной, что и предыдущие выпуски сериала, но по сценарию с ними не связана. В отличие от предыдущих частей, где города были вымышлены, действие происходит в реальном городе Токио и немного на Гавайи. Главным героем, которым управляет игрок, является черноволосый молчаливый и безымянный подросток 16 лет, который носит кодовое имя <i>Джокер</i>. Он учится во втором классе старшей школы <i>Сюдзин</i>, переехал в Токио после того, как его отчислили из школы из-за ложного обвинения в нападении на конгрессмена. Днём главный герой посещает школу и ведёт обычную жизнь, но спокойствие нарушает случайное попадание в альтернативную реальность <i>Дворца</i> и появление кота Морганы, после чего герой вместе со своими друзьями образовывает группу так называемых <i>Призрачных Похитителей Сердец (Fanton Thieves of Hearts)</i> для исследования других <i>Дворцов</i> — мест, созданных силой эмоций человеческих сердец. Группа отправляется на похищение и искоренение злых помыслов и желаний людей из их душевного мира, которые рискуют обернуться опасностью для жителей реального мира. </p>
-    
-        <table border="2px" class="characterTable">
+        <table border="2px" class="characterTable" id="p5characters">
             <tr>
                 <th></th>
                 <th>
@@ -392,7 +430,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/ren.jpg" width="40">
+                    <img src="images/ren.jpg" width="40" title="Рен Амамия">
                 </td>
                 <td>
                     Рен Амамия (игрок)
@@ -406,7 +444,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/morgana.jpg" width="40">
+                    <img src="images/morgana.jpg" width="40" title="Моргана">
                 </td>
                 <td>
                     Моргана
@@ -420,7 +458,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/ryujiSakamoto.jpg" width="40">
+                    <img src="images/ryujiSakamoto.jpg" width="40" title="Рьюджи Сакамото">
                 </td>
                 <td>
                     Рьюджи Сакамото
@@ -434,7 +472,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/ann.jpg" width="40">
+                    <img src="images/ann.jpg" width="40" title="Анн Такамаки">
                 </td>
                 <td>
                     Анн Такамаки
@@ -448,7 +486,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/yusuke.jpg" width="40">
+                    <img src="images/yusuke.jpg" width="40" title="Юсуке Китагава">
                 </td>
                 <td>
                     Юсуке Китагава
@@ -462,7 +500,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/makotoNijima.jpg" width="40">
+                    <img src="images/makotoNijima.jpg" width="40" title="Макото Ниджима">
                 </td>
                 <td>
                     Макото Ниджима
@@ -476,7 +514,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/futabaSakura.jpg" width="40">
+                    <img src="images/futabaSakura.jpg" width="40" title="Футаба Сакура">
                 </td>
                 <td>
                     Футаба Сакура
@@ -490,7 +528,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/haru.png" width="40">
+                    <img src="images/haru.png" width="40" title="Хару Окумура">
                 </td>
                 <td>
                     Хару Окумура
@@ -504,7 +542,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="images/akechi.jpg" width="40">
+                    <img src="images/akechi.jpg" width="40" title="Горо Акечи">
                 </td>
                 <td>
                     Горо Акечи
@@ -518,7 +556,7 @@
             </tr>
         </table>
     
-        <div class="openings">
+        <div class="openings" id="p5openings">
             <p><big>Опенинги</big></p>
 
             <p>Persona 5</p>
@@ -529,7 +567,7 @@
 
         </div>
 
-        <div class="screenshots">
+        <div class="screenshots" id="p5screenshots">
 
             <p style="font-size: x-large;"><big>Скриншоты</big></p>
             
@@ -537,15 +575,15 @@
 
                 <tr>
                     <td>
-                        <img src="images/p5screenshot3.webp">
+                        <img src="images/p5screenshot3.webp" title="Перемещение по Токио">
                     </td>
     
                     <td>
-                        <img src="images/p5screenshot2.jpg">
+                        <img src="images/p5screenshot2.jpg" title="Диалог с Рьюджи">
                     </td>
     
                     <td>
-                        <img src="images/p5screenshot1.jpg">
+                        <img src="images/p5screenshot1.jpg" title="Бой с тенями">
                     </td>
                 </tr>
     
