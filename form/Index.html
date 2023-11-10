@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+
+<body>
+    
+    <h1>Заполните анкету</h1>
+
+    <form>
+
+        <label for="name">Введите своё имя</label><br>
+        <input type="text" id="name"><br><br>
+
+        <label for="birthDate">Введите дату рождения</label><br>
+        <input type="date" id="birthDate"><br><br>
+
+        <label for="place">Выберите свой город</label><br>
+        <select id="place">
+            <option value="Moscow">Москва</option>
+            <option value="NotMoscow">Замкадье</option>
+        </select><br><br>
+
+        <label for="mail">Введите адрес электронной почты</label><br>
+        <input type="email" id="mail"><br><br>
+
+        <label for="photo">Прикрепите своё фото</label><br>
+        <input type="file" id="photo"><br><br>
+
+        <label for="about">Расскажите немного о себе</label><br>
+        <textarea id="about" cols="30" rows="10"></textarea><br><br>
+
+        <label for="card">Введите данные банковской карты</label>
+        <table id="card" border="2px">
+            <tr>
+                <td><input type="text" maxlength="16" placeholder="номер карты"></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="month" placeholder="действует до">
+                </td>
+                <td>
+                    <input inputmode="numeric" maxlength="3" placeholder="cvv">
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>
+                    <button type="reset">Очистить форму</button>
+                </td>
+                <td>
+                    <button type="submit">Отправить форму</button>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+
+</body>
+
+</html>
